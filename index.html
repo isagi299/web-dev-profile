@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Development Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style/style.css">
 </head>
-<body>
+<body class="open-sans-normal">
     <header class="header">
 
         <!-- navigation  -->
@@ -26,8 +27,10 @@
                 <h3 class="sub-title dark2">Hi, I  am</h3>
                 <h1 class="title dark1">Mary Hardy</h1>
                 <p class="des dark3">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
-                <button class="btn-primary">Download CV</button>
-                <button class="btn-primary">Contact</button>
+                <button class="btn-primary">
+                    <i class="fa-solid fa-file-arrow-down"></i>
+                    Download CV</button>
+                <button class="btn-primary contact"> <i class="fa-solid fa-phone"></i>Contact</button>
             </div>
             <img src="images/hardy.png" alt="Mark Hardy">
         </div>
@@ -93,9 +96,94 @@
             </div>
         </div>
 
+        <div class="resume">
+            <div class="resume-title dark1"><h2>A summary of My Resume</h2></div>
+
+            <div class="resume-des">
+                     <div class="resume-edu">
+                    <div class="resume-edu-title dark2"><h4>My Education</h4></div>
+                    <div class="resume-edu-all">
+
+                        <div class="resume-edu-deg dark2">Master in Computer Engineering</div>
+                        <div class="resume-edu-uni dark3">Harvard University / 2015 - 2017</div>
+                        <div class="resume-edu-des dark3"><p>List skill/technologies here. You can change the icon above 
+    to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p></div>
+                    </div>
+                    <div class="resume-edu-all">
+
+                        <div class="resume-edu-deg dark2">Master in Computer Engineering</div>
+                        <div class="resume-edu-uni dark3">Harvard University / 2015 - 2017</div>
+                        <div class="resume-edu-des dark3"><p>List skill/technologies here. You can change the icon above 
+    to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p></div>
+                    </div>
+                    <div class="resume-edu-all">
+
+                        <div class="resume-edu-deg dark2">Master in Computer Engineering</div>
+                        <div class="resume-edu-uni dark3">Harvard University / 2015 - 2017</div>
+                        <div class="resume-edu-des dark3"><p>List skill/technologies here. You can change the icon above 
+    to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p></div>
+                    </div>
+                </div>
+                     <div class="resume-edu">
+                    <div class="resume-edu-title dark2"><h4>My Education</h4></div>
+                    <div class="resume-edu-all">
+
+                        <div class="resume-edu-deg dark2">Master in Computer Engineering</div>
+                        <div class="resume-edu-uni dark3">Harvard University / 2015 - 2017</div>
+                        <div class="resume-edu-des dark3"><p>List skill/technologies here. You can change the icon above 
+    to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p></div>
+                    </div>
+                    <div class="resume-edu-all">
+
+                        <div class="resume-edu-deg dark2">Master in Computer Engineering</div>
+                        <div class="resume-edu-uni dark3">Harvard University / 2015 - 2017</div>
+                        <div class="resume-edu-des dark3"><p>List skill/technologies here. You can change the icon above 
+    to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p></div>
+                    </div>
+                    <div class="resume-edu-all">
+
+                        <div class="resume-edu-deg dark2">Master in Computer Engineering</div>
+                        <div class="resume-edu-uni dark3">Harvard University / 2015 - 2017</div>
+                        <div class="resume-edu-des dark3"><p>List skill/technologies here. You can change the icon above 
+    to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p></div>
+                    </div>
+                </div>
+
+       
+            </div>
+
+            <div class="resume-btn"><button class="btn-primary">
+                <i class="fa-solid fa-file-arrow-down"></i>
+                Download CV</button></div>
+            </div>
+            
+        </div>
+
     </main>
     <footer>
+        <div class="foot-contain">
 
+            <div class="connect">
+                <h2 class="dark1">Lets Connect</h2>
+                <p class="dark2">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+            <div class="foot-form">
+                <h2 class="dark1">Let’s Message me</h2>
+                <div>
+                    <form action="">
+                        <input type="text" name="name" id="name" placeholder="Your Name">
+                        <input type="email" name="email" id="email" placeholder="Your Email">
+                        <textarea name="message" id="message" placeholder="Message"></textarea>
+                        <div class="form-btn"><button class="btn-primary">Submit</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
