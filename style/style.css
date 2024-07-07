@@ -341,3 +341,8 @@ textarea{
 button,i{
     cursor: pointer;
 }
+
+.connect a{
+    text-decoration: none;
+    color: #FD6E0A;
+}
